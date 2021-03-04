@@ -328,12 +328,12 @@ test(doenca):-
 doenca('Catapora', ['manchas avermelhadas no corpo', 'fadiga', 'febre', 'garganta inflamada', 'pouco apetite']).
 
 test(doencaSintomaProb) :-
-    doencaSintomasProb('Caxumba', ['fadiga', 'febre', 'pouco apetite']).
+    doencaSintomasProb('Caxumba 10,4%', ['fadiga', 'febre', 'pouco apetite']).
 
 test(doencaSintomaProb) :-
-    doencaSintomasProb('Bronquite', ['tosse prolongada', 'febre', 'coriza']).
+    doencaSintomasProb('Bronquite 41,8%', ['tosse prolongada', 'febre', 'coriza']).
 
 test(doencaSintomaProb) :-
-    doencaSintomasProb('Meningite', ['vomito', 'calafrios', 'fadiga']).
+    doencaSintomasProb('Meningite 61,7%', ['vomito', 'calafrios', 'fadiga']).
 
 end_tests(main).
